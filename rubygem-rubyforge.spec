@@ -41,3 +41,19 @@ rm -rf %{buildroot}
 %{ruby_gemdir}/gems/%{oname}-%{version}
 %{ruby_gemdir}/specifications/%{oname}-%{version}.gemspec
 
+
+
+%changelog
+* Sat Sep 18 2010 Per Øyvind Karlsen <peroyvind@mandriva.org> 2.0.4-1mdv2011.0
++ Revision: 579405
+- new release: 2.0.4
+- don't install gem archive
+- rebuild for new automatic requires/provides
+
+* Wed Feb 03 2010 Per Øyvind Karlsen <peroyvind@mandriva.org> 2.0.3-1mdv2010.1
++ Revision: 500339
+- import rubygem-rubyforge
+
+
+* Mon Feb  3 2010 Per Øyvind Karlsen <peroyvind@mandriva.org> 2.0.3-1
+- initial release
