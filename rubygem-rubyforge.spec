@@ -3,7 +3,7 @@
 Summary:	A script which automates a limited set of rubyforge operations
 Name:		rubygem-%{oname}
 Version:	2.0.4
-Release:	%mkrel 1
+Release:	2
 License:	MIT
 Group:		Development/Ruby
 URL:		http://%{oname}.rubyforge.org/
